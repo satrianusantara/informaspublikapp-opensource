@@ -1,0 +1,66 @@
+.page-home {
+  padding-top: 30px;
+  h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .home-carousel {
+    padding-top: 30px;
+  }
+
+  .web-trend-articles {
+    margin-top: 70px;
+  }
+
+  .web-more-articles {
+    margin-top: 30px;
+  }
+
+  .web-gallery {
+    margin-top: 70px;
+  }
+
+  .web-affiliate {
+    margin-top: 70px;
+
+    .bg-affiliate {
+      padding: 20px;
+      border-radius: 30px;
+      background: #dadada;
+    }
+  }
+
+  .web-find-us {
+    margin-top: 70px;
+  }
+
+  .store-breadcrumbs {
+    .breadcrumb {
+      background: transparent;
+    }
+  }
+}
+.web-footer {
+  // background: #16b3ac;
+  background-image: url(/frontend/images/bg-footer.png);
+  background-size: cover;
+  padding: 70px 0px;
+  text-decoration: none;
+
+  p,
+  a {
+    color: black;
+  }
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  min-height: 50px;
+  margin-top: auto;
+}

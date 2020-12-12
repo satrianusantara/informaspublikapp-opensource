@@ -1,0 +1,130 @@
+.component-infopublik {
+  background: linear-gradient(90deg, #16b3ac 0%, #bfe7e5 130%);
+  border-radius: 8px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  &:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+  }
+
+  .categories-text {
+    font-size: 14px;
+    text-align: center;
+    // color: #1f1f1d;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .pelayanan-publik-title {
+    font-size: 50px;
+    text-align: left;
+    // color: #1f1f1d;
+    color: white;
+    font-weight: 600;
+  }
+
+  .pelayanan-publik-image {
+    margin-top: -50px;
+  }
+}
+
+.card-pp {
+  background: white;
+  padding: 30px 30px 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+
+  ol {
+    margin: 0px 0;
+    padding: 0;
+    list-style: decimal-leading-zero inside none;
+  }
+
+  ol li {
+    margin: 0px;
+    padding: 0px;
+    text-indent: -2em;
+    margin-left: 2em;
+  }
+
+  .nav-pills .active {
+    background-color: transparent;
+    border-bottom: 5px solid #16b3ac;
+    border-radius: 0px;
+    color: black;
+  }
+
+  a {
+    color: black;
+    font-weight: 600;
+  }
+
+  .list-pp {
+    font-weight: normal;
+  }
+}
+
+.card-pp2 {
+  background: white;
+  padding: 30px 30px 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+  height: 1050px;
+
+  .nav-pills .active {
+    background-color: transparent;
+    border-bottom: 5px solid #16b3ac;
+    border-radius: 0px;
+    color: black;
+  }
+
+  a {
+    color: black;
+    font-weight: 600;
+  }
+
+  .list-pp {
+    font-weight: normal;
+  }
+
+  .web-detail-pelayanan {
+    margin-top: 20px;
+
+    .component-pp {
+      margin: 30px 0px 0px;
+      // padding: 30px 30px 10px 30px;
+      // margin-bottom: 20px;
+      transition: all 0.2s ease-in-out;
+      // background: red;
+
+      &:hover {
+        transform: scale(1.05);
+        text-decoration: none;
+      }
+
+      h5 {
+        font-weight: 600;
+        // margin-bottom: 18px;
+      }
+
+      .detail-pp {
+        font-size: 16px;
+        text-align: justify;
+        color: #1f1f1d;
+        color: red;
+        font-weight: normal;
+        // margin-top: 12px;
+        // color: red;
+      }
+    }
+  }
+}
+
+.carousel-inner img {
+  margin: auto;
+}

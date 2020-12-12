@@ -1,0 +1,17 @@
+//IMPORT
+@import "../libraries/bootstrap/scss/bootstrap.scss";
+@import "../libraries/xzoom/dist/xzoom.css";
+
+@import "global";
+@import "fonts";
+@import "navbar";
+
+@import "pages/home";
+@import "pages/profil";
+@import "pages/berita";
+@import "components/trend-articles";
+@import "components/profil-dinkes";
+@import "components/web-tag";
+@import "components/gallery";
+
+@import "components/infopublik";

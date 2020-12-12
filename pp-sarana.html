@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinas Kesehatan Kabupaten Bandung</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/frontend/styles/main.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white navbar-web navbar-fixed-top fixed-top"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="frontend/images/ic_dinas kesehatan.png"
+            alt="logo dinkes kab bandung"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-md-2">
+              <a href="index.html" class="nav-link">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a href="/profil.html" class="nav-link">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a href="/berita.html" class="nav-link">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a href="/galeri.html" class="nav-link">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a href="/informasi.html" class="nav-link active">Informasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- page content -->
+    <div class="page-content page-home">
+      <section class="home-carousel">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12" data-aos="zoom-in-up">
+              <div
+                id="homeCarousel"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    class="active"
+                    data-target="#homeCarousel"
+                    data-slide-to="0"
+                  ></li>
+                  <li data-target="#homeCarousel" data-slide-to="1"></li>
+                  <li data-target="#homeCarousel" data-slide-to="2"></li>
+                  <li data-target="#homeCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="frontend/images/banner.png"
+                      alt="carousel image"
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="frontend/images/maklumat (1).png"
+                      alt="carousel image"
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="frontend/images/wbbm.jpg"
+                      alt="carousel image"
+                      class="d-block w-100"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="frontend/images/akun sosmed dinkes.png"
+                      alt="carousel image"
+                      class="d-block w-100"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="web-trend-articles">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1" data-aos="fade-up" data-aos-delay="100">
+              <a href="/informasi.html">
+                <i class="large material-icons">arrow_back</i>
+              </a>
+            </div>
+            <div class="col-11" data-aos="fade-right">
+              <h4>Pelayanan Publik Kategori Sarana</h4>
+            </div>
+          </div>
+          <div class="card-pp2 d-block" data-aos="fade-up" data-aos-delay="100">
+            <ul
+              class="nav nav-pills nav-fill mb-3 justify-content-center"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="pills-ptsp-tab"
+                  data-toggle="pill"
+                  href="#pills-ptsp"
+                  role="tab"
+                  aria-controls="pills-ptsp"
+                  aria-selected="true"
+                  >Terpadu Melalui DPMPTSP</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-dinkes-tab"
+                  data-toggle="pill"
+                  href="#pills-dinkes"
+                  role="tab"
+                  aria-controls="pills-dinkes"
+                  aria-selected="false"
+                  >Melalui Dinas Kesehatan</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-ptsp"
+                role="tabpanel"
+                aria-labelledby="pills-ptsp-tab"
+              >
+                <div class="row">
+                  <div class="col">
+                    <!-- <a href="#" class="list-pp">Izin Mendirikan Rumah Sakit</a
+                    ><br /> -->
+                    <!-- <a href="#" class="list-pp">Izin Operasional Rumah Sakit</a
+                    ><br /> -->
+                    <!-- <a href="#" class="list-pp">Izin Operasional Klinik</a
+                    ><br /> -->
+                    <!-- <a href="#" class="list-pp"
+                      >Izin Mendirikan Rumah Sakit Pemerintah</a
+                    ><br /> -->
+                    <!-- <a href="#" class="list-pp"
+                      >Izin Operasional Rumah Sakit Pemerintah</a
+                    ><br /> -->
+                    <!-- <a href="#" class="list-pp"
+                      >Izin Operasional Klinik Pemerintah</a
+                    ><br /> -->
+                    <!-- <a href="#" class="list-pp"
+                      >Izin Operasional Laboratorium Klinik Umum dan Khusus
+                      (Laboratorium Klinik Umum Pratama)</a
+                    ><br /> -->
+                    <a href="pps-vektor.html" class="list-pp"
+                      >Izin Penyelenggaraan Pengendalian Vektor dan Binatang
+                      Pembawa Penyakit</a
+                    ><br />
+                    <!-- <a href="#" class="list-pp">Izin Apotik</a><br />
+                    <a href="#" class="list-pp">Izin Toko Obat</a><br />
+                    <a href="#" class="list-pp"
+                      >Sertifikat Produksi Usaha Kecil dan Mikro Obat
+                      Tradisional</a
+                    ><br />
+                    <a href="#" class="list-pp">Izin Toko Alat Kesehatan</a
+                    ><br />
+                    <a href="#" class="list-pp">Izin Operasional Puskesmas</a
+                    ><br />
+                    <a href="#" class="list-pp"
+                      >Izin Penyelenggaraan Pelayanan Radiolog Diagnostik</a
+                    ><br /> -->
+                    <a href="pps-spa.html" class="list-pp"
+                      >Izin HATRA (PMK no.61 tahun 2016)</a
+                    ><br />
+                  </div>
+                  <div class="col">
+                    <!-- <a href="#" class="list-pp">Izin Penyelenggaraan Optikal</a
+                    ><br />
+                    <a href="#" class="list-pp">Izin Pelayanan Hemodialisis</a
+                    ><br />
+                    <a href="#" class="list-pp"
+                      >Izin Sarana Pelayanan Rehabilitasi Penyalahgunaan dan
+                      Ketergantungan Narkotik dan Zat Adiktif Terlarang</a
+                    ><br />
+                    <a href="#" class="list-pp"
+                      >Izin Teknis Pelayanan Kesehatan SPA Tradisional</a
+                    ><br />
+                    <a href="#" class="list-pp"
+                      >Izin Pengobatan Komplementer - Alternatif</a
+                    ><br />
+                    <a href="#" class="list-pp"
+                      >Sertifikat Produksi Perusahaan Rumah Tangga (PRT) Alat
+                      Kesehatan dan Perbekalan Kesehatan Rumah Tangga(PKRT)</a
+                    ><br /> -->
+                    <a href="pps-hotel.html" class="list-pp"
+                      >Sertifikat Laik Higiene Sanitasi Hotel</a
+                    ><br />
+                    <a href="pps-rumahmakan.html" class="list-pp"
+                      >Sertifikat Laik Higiene Rumah Makan dan Restoran</a
+                    ><br />
+                    <a href="pps-renang.html" class="list-pp"
+                      >Sertifikat Laik Higiene Sanitasi Kolam Renang dan
+                      Pemandian Umum</a
+                    ><br />
+                    <a href="pps-depot.html" class="list-pp"
+                      >Sertifikat Laik Higiene Sanitasi Depot Air Minum</a
+                    ><br />
+                    <a href="pps-jasaboga.html" class="list-pp"
+                      >Sertifikat Laik Higiene Sanitasi Jasa Boga</a
+                    ><br />
+                    <a href="pps-sioklinik.html" class="list-pp"
+                      >Rekomendasi Teknis SIO Klinik</a
+                    ><br />
+                    <a href="pps-siolab.html" class="list-pp"
+                      >Rekomendasi Teknis SIO Laboratorium (PMK No. 411 tahun
+                      2010)</a
+                    ><br />
+                    <a href="pps-tukanggigi.html" class="list-pp"
+                      >Izin Tukang Gigi (PMK No. 39 tahun 2014)</a
+                    ><br />
+                    <a href="pps-spa.html" class="list-pp"
+                      >Izin SPA (PMK No.8 tahun 2014)</a
+                    ><br />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-dinkes"
+                role="tabpanel"
+                aria-labelledby="pills-dinkes-tab"
+              >
+                <div class="row">
+                  <div class="col">
+                    <a href="/pps-kendinastahun.html" class="list-pp"
+                      >Pembayaran Pajak Tahunan Kendaraan Dinas</a
+                    ><br />
+                    <a href="/pps-kendinas5tahun.html" class="list-pp"
+                      >Pembayaran Pajak 5 Tahunan Kendaraan Dinas</a
+                    ><br />
+                  </div>
+                  <div class="col">
+                    <a href="/pps-kenpkmtahun.html" class="list-pp"
+                      >Pembayaran Pajak Tahunan Kendaraan Puskesmas</a
+                    ><br />
+                    <a href="/pps-kenpkm5tahun.html" class="list-pp"
+                      >Pembayaran Pajak 5 Tahunan Kendaraan Puskesmas</a
+                    ><br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="pt-4 pb-2">
+              2020 Copyright Dinas Kesehatan Kab Bandung. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="/frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="/frontend/libraries/retina/retina.min.js"></script>
+    <script src="/frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>

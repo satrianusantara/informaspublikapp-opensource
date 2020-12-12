@@ -1,0 +1,28 @@
+.page-berita {
+  .web-hero-berita {
+    margin-top: 150px;
+  }
+
+  .web-tag {
+    .btn-tag {
+      font-size: 10px;
+    }
+    button {
+      border-radius: 30px;
+      background-color: transparent;
+      color: black;
+
+      &:hover {
+        background-color: grey;
+      }
+    }
+  }
+
+  .web-berita {
+    margin: 30px;
+
+    .card-berita {
+      margin-bottom: 20px;
+    }
+  }
+}
